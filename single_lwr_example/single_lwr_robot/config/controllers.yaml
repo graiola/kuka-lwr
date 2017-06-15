@@ -34,6 +34,11 @@ lwr:
     tip_name: lwr_7_link
     publish_rate: 30
 
+  saip_controller: 
+    type: lwr_controllers/SAIPController
+    root_name: lwr_base_link
+    tip_name: lwr_7_link
+
   gravity_compensation_controller:
     type: lwr_controllers/GravityCompensation
     root_name: lwr_base_link
